@@ -1,5 +1,7 @@
 package com.company;
+
 import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -12,9 +14,8 @@ public class Main {
         int age = scanner.nextInt();
         System.out.println("I am " + age+ " years old!" );
         System.out.println("what is your favorite food?");
-        //scanner.next();
-        String food= scanner.nextLine();
-        System.out.println("My best food is" + food);
+        String food= scanner.next();
+        System.out.println("My best food is " + food);
 
 
 
