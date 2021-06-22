@@ -34,7 +34,9 @@ public class ATMCard {
                     System.out.println("Your PIN is correct");
 
                 }
-            }else {
+            }
+            
+            else {
                 System.out.println("Your card is Blocked, contact bank official");
             }
 
